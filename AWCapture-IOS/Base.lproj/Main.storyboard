@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6724" systemVersion="14C81f" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AWCapture_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="42mm Apple Watch Sport - Aluminum - Sport Band, Blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="FtA-hb-8zk">
+                                <rect key="frame" x="24" y="73" width="552" height="454"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="454" id="wiB-gT-85I"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CKz-hG-NQN">
+                                <rect key="frame" x="222" y="201" width="156" height="195"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="156" id="ebm-5L-1hz"/>
+                                    <constraint firstAttribute="height" constant="195" id="r6P-pM-YuU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CKz-hG-NQN" firstAttribute="centerX" secondItem="FtA-hb-8zk" secondAttribute="centerX" id="LqG-Oc-1ON"/>
+                            <constraint firstAttribute="centerX" secondItem="FtA-hb-8zk" secondAttribute="centerX" id="RHE-h7-fe9"/>
+                            <constraint firstItem="CKz-hG-NQN" firstAttribute="centerY" secondItem="FtA-hb-8zk" secondAttribute="centerY" constant="0.5" id="db0-P0-wqD"/>
+                            <constraint firstAttribute="centerY" secondItem="FtA-hb-8zk" secondAttribute="centerY" id="zR2-tj-V1F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="watchBackgroundView" destination="FtA-hb-8zk" id="eZR-bT-kkb"/>
+                        <outlet property="watchView" destination="CKz-hG-NQN" id="i9e-OU-n0p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="275" y="388"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="42mm Apple Watch Sport - Aluminum - Sport Band, Blue.png" width="552" height="950"/>
+    </resources>
+</document>

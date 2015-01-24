@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>AWCapture-IOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>AWCapture-OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Common.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F49A6E191A6EA06000A7B550</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F49A6E2E1A6EA06000A7B550</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F49A6E401A6EA09400A7B550</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F49A6E4F1A6EA09400A7B550</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F49A6E651A6EA79700A7B550</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F49A6E6F1A6EA79700A7B550</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

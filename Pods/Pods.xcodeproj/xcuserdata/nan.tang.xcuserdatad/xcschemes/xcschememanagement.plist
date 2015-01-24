@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-AWCapture-IOS-PeerTalk.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AWCapture-IOS.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AWCapture-OSX-PeerTalk.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-AWCapture-OSX.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2639DC7CD015E21A15C80EAD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3E6AD0BE5B04F5D18917CD7C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A8DDFF58099D341E0A5180BD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B4B1FE8AB004618C18A0202D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -6,20 +6,297 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		05D2D6BD6FA14B9C79FADC07 /* libPods-AWCapture-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF21AE28CF3290431FFFE9F /* libPods-AWCapture-IOS.a */; };
+		3095E47E8966F5805BF90BFB /* libPods-AWCapture-OSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 270ABAD957EDDF54BE8262E6 /* libPods-AWCapture-OSX.a */; };
+		F49A6E201A6EA06000A7B550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A6E1F1A6EA06000A7B550 /* AppDelegate.swift */; };
+		F49A6E221A6EA06000A7B550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A6E211A6EA06000A7B550 /* ViewController.swift */; };
+		F49A6E251A6EA06000A7B550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49A6E231A6EA06000A7B550 /* Main.storyboard */; };
+		F49A6E271A6EA06000A7B550 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A6E261A6EA06000A7B550 /* Images.xcassets */; };
+		F49A6E2A1A6EA06000A7B550 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49A6E281A6EA06000A7B550 /* LaunchScreen.xib */; };
+		F49A6E461A6EA09400A7B550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A6E451A6EA09400A7B550 /* AppDelegate.swift */; };
+		F49A6E481A6EA09400A7B550 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49A6E471A6EA09400A7B550 /* Images.xcassets */; };
+		F49A6E4B1A6EA09400A7B550 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49A6E491A6EA09400A7B550 /* MainMenu.xib */; };
+		F49A6E821A6EA83500A7B550 /* PeerTalkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A6E811A6EA83500A7B550 /* PeerTalkProtocol.swift */; };
+		F49A6E831A6EA83500A7B550 /* PeerTalkProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A6E811A6EA83500A7B550 /* PeerTalkProtocol.swift */; };
+		F49A6E851A6EA9EF00A7B550 /* ImageKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A6E841A6EA9EF00A7B550 /* ImageKit.swift */; };
+		F49A6E871A6EAFE000A7B550 /* WindowKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49A6E861A6EAFE000A7B550 /* WindowKit.swift */; };
+		F4CB754D1A6FEDC400F06263 /* PTChannel+swiftHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CB754C1A6FEDC400F06263 /* PTChannel+swiftHelper.m */; };
+		F4CB756D1A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75571A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Brown.png */; };
+		F4CB756E1A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Midnight Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75581A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Midnight Blue.png */; };
+		F4CB756F1A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Soft Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75591A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Soft Pink.png */; };
+		F4CB75701A70060700F06263 /* 38mm Apple Watch - Steel - Sport Band, Black.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB755A1A70060700F06263 /* 38mm Apple Watch - Steel - Sport Band, Black.png */; };
+		F4CB75711A70060700F06263 /* 38mm Apple Watch Edition - Rose Gold - Modern Buckle, Rose Gray.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB755B1A70060700F06263 /* 38mm Apple Watch Edition - Rose Gold - Modern Buckle, Rose Gray.png */; };
+		F4CB75721A70060700F06263 /* 38mm Apple Watch Edition - Yellow Gold - Modern Buckle, Bright Red.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB755C1A70060700F06263 /* 38mm Apple Watch Edition - Yellow Gold - Modern Buckle, Bright Red.png */; };
+		F4CB75731A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB755D1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Blue.png */; };
+		F4CB75741A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Light Brown.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB755E1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Light Brown.png */; };
+		F4CB75751A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Stone.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB755F1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Stone.png */; };
+		F4CB75761A70060700F06263 /* 42mm Apple Watch - Steel - Link Bracelet.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75601A70060700F06263 /* 42mm Apple Watch - Steel - Link Bracelet.png */; };
+		F4CB75771A70060700F06263 /* 42mm Apple Watch - Steel - Milanese Loop.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75611A70060700F06263 /* 42mm Apple Watch - Steel - Milanese Loop.png */; };
+		F4CB75781A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, Black.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75621A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, Black.png */; };
+		F4CB75791A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, White.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75631A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, White.png */; };
+		F4CB757A1A70060700F06263 /* 42mm Apple Watch - Steel, Space Black - Link Bracelet.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75641A70060700F06263 /* 42mm Apple Watch - Steel, Space Black - Link Bracelet.png */; };
+		F4CB757B1A70060700F06263 /* 42mm Apple Watch Edition - Rose Gold - Sport Band, White.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75651A70060700F06263 /* 42mm Apple Watch Edition - Rose Gold - Sport Band, White.png */; };
+		F4CB757C1A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Classic Buckle, Midnight Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75661A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Classic Buckle, Midnight Blue.png */; };
+		F4CB757D1A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Sport Band, Black.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75671A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Sport Band, Black.png */; };
+		F4CB757E1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75681A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Blue.png */; };
+		F4CB757F1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Green.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB75691A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Green.png */; };
+		F4CB75801A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB756A1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Pink.png */; };
+		F4CB75811A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, White.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB756B1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, White.png */; };
+		F4CB75821A70060700F06263 /* 42mm Apple Watch Sport - Space Gray - Sport Band, Black.png in Resources */ = {isa = PBXBuildFile; fileRef = F4CB756C1A70060700F06263 /* 42mm Apple Watch Sport - Space Gray - Sport Band, Black.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		270ABAD957EDDF54BE8262E6 /* libPods-AWCapture-OSX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWCapture-OSX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF21AE28CF3290431FFFE9F /* libPods-AWCapture-IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AWCapture-IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26958667084296C41479DAD /* Pods-AWCapture-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWCapture-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWCapture-OSX/Pods-AWCapture-OSX.release.xcconfig"; sourceTree = "<group>"; };
+		C3359A399CBA726C0706C98D /* Pods-AWCapture-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWCapture-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWCapture-OSX/Pods-AWCapture-OSX.debug.xcconfig"; sourceTree = "<group>"; };
+		E021213D5A2AB5EC7A750301 /* Pods-AWCapture-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWCapture-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AWCapture-IOS/Pods-AWCapture-IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F399A2494AC1F12BA3B8DA /* Pods-AWCapture-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AWCapture-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-AWCapture-IOS/Pods-AWCapture-IOS.release.xcconfig"; sourceTree = "<group>"; };
+		F49A6E1A1A6EA06000A7B550 /* AWCapture-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AWCapture-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A6E1E1A6EA06000A7B550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49A6E1F1A6EA06000A7B550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F49A6E211A6EA06000A7B550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F49A6E241A6EA06000A7B550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F49A6E261A6EA06000A7B550 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F49A6E291A6EA06000A7B550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F49A6E411A6EA09400A7B550 /* AWCapture-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AWCapture-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F49A6E441A6EA09400A7B550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49A6E451A6EA09400A7B550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F49A6E471A6EA09400A7B550 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F49A6E4A1A6EA09400A7B550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F49A6E811A6EA83500A7B550 /* PeerTalkProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerTalkProtocol.swift; sourceTree = "<group>"; };
+		F49A6E841A6EA9EF00A7B550 /* ImageKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageKit.swift; sourceTree = "<group>"; };
+		F49A6E861A6EAFE000A7B550 /* WindowKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowKit.swift; sourceTree = "<group>"; };
+		F4CB754B1A6FEDC400F06263 /* PTChannel+swiftHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "PTChannel+swiftHelper.h"; path = "AWCapture-IOS/PTChannel+swiftHelper.h"; sourceTree = SOURCE_ROOT; };
+		F4CB754C1A6FEDC400F06263 /* PTChannel+swiftHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "PTChannel+swiftHelper.m"; path = "AWCapture-IOS/PTChannel+swiftHelper.m"; sourceTree = SOURCE_ROOT; };
+		F4CB75541A6FFF6100F06263 /* AWCapture-OSX-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWCapture-OSX-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4CB75551A70013000F06263 /* AWCapture-IOS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AWCapture-IOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		F4CB75571A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38mm Apple Watch - Steel - Modern Buckle, Brown.png"; sourceTree = "<group>"; };
+		F4CB75581A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Midnight Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38mm Apple Watch - Steel - Modern Buckle, Midnight Blue.png"; sourceTree = "<group>"; };
+		F4CB75591A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Soft Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38mm Apple Watch - Steel - Modern Buckle, Soft Pink.png"; sourceTree = "<group>"; };
+		F4CB755A1A70060700F06263 /* 38mm Apple Watch - Steel - Sport Band, Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38mm Apple Watch - Steel - Sport Band, Black.png"; sourceTree = "<group>"; };
+		F4CB755B1A70060700F06263 /* 38mm Apple Watch Edition - Rose Gold - Modern Buckle, Rose Gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38mm Apple Watch Edition - Rose Gold - Modern Buckle, Rose Gray.png"; sourceTree = "<group>"; };
+		F4CB755C1A70060700F06263 /* 38mm Apple Watch Edition - Yellow Gold - Modern Buckle, Bright Red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "38mm Apple Watch Edition - Yellow Gold - Modern Buckle, Bright Red.png"; sourceTree = "<group>"; };
+		F4CB755D1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch - Steel - Leather Loop, Blue.png"; sourceTree = "<group>"; };
+		F4CB755E1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Light Brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch - Steel - Leather Loop, Light Brown.png"; sourceTree = "<group>"; };
+		F4CB755F1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Stone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch - Steel - Leather Loop, Stone.png"; sourceTree = "<group>"; };
+		F4CB75601A70060700F06263 /* 42mm Apple Watch - Steel - Link Bracelet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch - Steel - Link Bracelet.png"; sourceTree = "<group>"; };
+		F4CB75611A70060700F06263 /* 42mm Apple Watch - Steel - Milanese Loop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch - Steel - Milanese Loop.png"; sourceTree = "<group>"; };
+		F4CB75621A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch - Steel - Sport Band, Black.png"; sourceTree = "<group>"; };
+		F4CB75631A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch - Steel - Sport Band, White.png"; sourceTree = "<group>"; };
+		F4CB75641A70060700F06263 /* 42mm Apple Watch - Steel, Space Black - Link Bracelet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch - Steel, Space Black - Link Bracelet.png"; sourceTree = "<group>"; };
+		F4CB75651A70060700F06263 /* 42mm Apple Watch Edition - Rose Gold - Sport Band, White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch Edition - Rose Gold - Sport Band, White.png"; sourceTree = "<group>"; };
+		F4CB75661A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Classic Buckle, Midnight Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch Edition - Yellow Gold - Classic Buckle, Midnight Blue.png"; sourceTree = "<group>"; };
+		F4CB75671A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Sport Band, Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch Edition - Yellow Gold - Sport Band, Black.png"; sourceTree = "<group>"; };
+		F4CB75681A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch Sport - Aluminum - Sport Band, Blue.png"; sourceTree = "<group>"; };
+		F4CB75691A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch Sport - Aluminum - Sport Band, Green.png"; sourceTree = "<group>"; };
+		F4CB756A1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch Sport - Aluminum - Sport Band, Pink.png"; sourceTree = "<group>"; };
+		F4CB756B1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, White.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch Sport - Aluminum - Sport Band, White.png"; sourceTree = "<group>"; };
+		F4CB756C1A70060700F06263 /* 42mm Apple Watch Sport - Space Gray - Sport Band, Black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "42mm Apple Watch Sport - Space Gray - Sport Band, Black.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F49A6E171A6EA06000A7B550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D2D6BD6FA14B9C79FADC07 /* libPods-AWCapture-IOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A6E3E1A6EA09400A7B550 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3095E47E8966F5805BF90BFB /* libPods-AWCapture-OSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
+		3AD9C2A1BEB324B7C5B19096 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E021213D5A2AB5EC7A750301 /* Pods-AWCapture-IOS.debug.xcconfig */,
+				F1F399A2494AC1F12BA3B8DA /* Pods-AWCapture-IOS.release.xcconfig */,
+				C3359A399CBA726C0706C98D /* Pods-AWCapture-OSX.debug.xcconfig */,
+				A26958667084296C41479DAD /* Pods-AWCapture-OSX.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8AA5A546E6527150D5A1DF39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AF21AE28CF3290431FFFE9F /* libPods-AWCapture-IOS.a */,
+				270ABAD957EDDF54BE8262E6 /* libPods-AWCapture-OSX.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F49A6E0F1A6EA03B00A7B550 = {
 			isa = PBXGroup;
 			children = (
+				F49A6E7D1A6EA81F00A7B550 /* common */,
+				F49A6E1C1A6EA06000A7B550 /* AWCapture-IOS */,
+				F49A6E421A6EA09400A7B550 /* AWCapture-OSX */,
+				F49A6E1B1A6EA06000A7B550 /* Products */,
+				3AD9C2A1BEB324B7C5B19096 /* Pods */,
+				8AA5A546E6527150D5A1DF39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
+		F49A6E1B1A6EA06000A7B550 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F49A6E1A1A6EA06000A7B550 /* AWCapture-IOS.app */,
+				F49A6E411A6EA09400A7B550 /* AWCapture-OSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F49A6E1C1A6EA06000A7B550 /* AWCapture-IOS */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB75551A70013000F06263 /* AWCapture-IOS-Bridging-Header.h */,
+				F49A6E1F1A6EA06000A7B550 /* AppDelegate.swift */,
+				F49A6E211A6EA06000A7B550 /* ViewController.swift */,
+				F4CB754B1A6FEDC400F06263 /* PTChannel+swiftHelper.h */,
+				F4CB754C1A6FEDC400F06263 /* PTChannel+swiftHelper.m */,
+				F49A6E841A6EA9EF00A7B550 /* ImageKit.swift */,
+				F49A6E231A6EA06000A7B550 /* Main.storyboard */,
+				F49A6E261A6EA06000A7B550 /* Images.xcassets */,
+				F49A6E281A6EA06000A7B550 /* LaunchScreen.xib */,
+				F49A6E1D1A6EA06000A7B550 /* Supporting Files */,
+			);
+			path = "AWCapture-IOS";
+			sourceTree = "<group>";
+		};
+		F49A6E1D1A6EA06000A7B550 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49A6E1E1A6EA06000A7B550 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F49A6E421A6EA09400A7B550 /* AWCapture-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				F49A6E451A6EA09400A7B550 /* AppDelegate.swift */,
+				F49A6E861A6EAFE000A7B550 /* WindowKit.swift */,
+				F49A6E471A6EA09400A7B550 /* Images.xcassets */,
+				F49A6E491A6EA09400A7B550 /* MainMenu.xib */,
+				F49A6E431A6EA09400A7B550 /* Supporting Files */,
+				F4CB75541A6FFF6100F06263 /* AWCapture-OSX-Bridging-Header.h */,
+			);
+			path = "AWCapture-OSX";
+			sourceTree = "<group>";
+		};
+		F49A6E431A6EA09400A7B550 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F49A6E441A6EA09400A7B550 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F49A6E7D1A6EA81F00A7B550 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB75561A70060700F06263 /* Apple Watch Frames  */,
+				F49A6E811A6EA83500A7B550 /* PeerTalkProtocol.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		F4CB75561A70060700F06263 /* Apple Watch Frames  */ = {
+			isa = PBXGroup;
+			children = (
+				F4CB75571A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Brown.png */,
+				F4CB75581A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Midnight Blue.png */,
+				F4CB75591A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Soft Pink.png */,
+				F4CB755A1A70060700F06263 /* 38mm Apple Watch - Steel - Sport Band, Black.png */,
+				F4CB755B1A70060700F06263 /* 38mm Apple Watch Edition - Rose Gold - Modern Buckle, Rose Gray.png */,
+				F4CB755C1A70060700F06263 /* 38mm Apple Watch Edition - Yellow Gold - Modern Buckle, Bright Red.png */,
+				F4CB755D1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Blue.png */,
+				F4CB755E1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Light Brown.png */,
+				F4CB755F1A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Stone.png */,
+				F4CB75601A70060700F06263 /* 42mm Apple Watch - Steel - Link Bracelet.png */,
+				F4CB75611A70060700F06263 /* 42mm Apple Watch - Steel - Milanese Loop.png */,
+				F4CB75621A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, Black.png */,
+				F4CB75631A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, White.png */,
+				F4CB75641A70060700F06263 /* 42mm Apple Watch - Steel, Space Black - Link Bracelet.png */,
+				F4CB75651A70060700F06263 /* 42mm Apple Watch Edition - Rose Gold - Sport Band, White.png */,
+				F4CB75661A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Classic Buckle, Midnight Blue.png */,
+				F4CB75671A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Sport Band, Black.png */,
+				F4CB75681A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Blue.png */,
+				F4CB75691A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Green.png */,
+				F4CB756A1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Pink.png */,
+				F4CB756B1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, White.png */,
+				F4CB756C1A70060700F06263 /* 42mm Apple Watch Sport - Space Gray - Sport Band, Black.png */,
+			);
+			path = "Apple Watch Frames ";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F49A6E191A6EA06000A7B550 /* AWCapture-IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49A6E371A6EA06000A7B550 /* Build configuration list for PBXNativeTarget "AWCapture-IOS" */;
+			buildPhases = (
+				A180C3C34F5E0731BFB63A83 /* Check Pods Manifest.lock */,
+				F49A6E161A6EA06000A7B550 /* Sources */,
+				F49A6E171A6EA06000A7B550 /* Frameworks */,
+				F49A6E181A6EA06000A7B550 /* Resources */,
+				2944ECA0D9BBB78E02B3CC0B /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWCapture-IOS";
+			productName = "AWCapture-IOS";
+			productReference = F49A6E1A1A6EA06000A7B550 /* AWCapture-IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F49A6E401A6EA09400A7B550 /* AWCapture-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F49A6E581A6EA09400A7B550 /* Build configuration list for PBXNativeTarget "AWCapture-OSX" */;
+			buildPhases = (
+				784AEBC231EF220CD31DD849 /* Check Pods Manifest.lock */,
+				F49A6E3D1A6EA09400A7B550 /* Sources */,
+				F49A6E3E1A6EA09400A7B550 /* Frameworks */,
+				F49A6E3F1A6EA09400A7B550 /* Resources */,
+				38133CF7885D124C9E3AFF6A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AWCapture-OSX";
+			productName = "AWCapture-OSX";
+			productReference = F49A6E411A6EA09400A7B550 /* AWCapture-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F49A6E101A6EA03B00A7B550 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0620;
+				TargetAttributes = {
+					F49A6E191A6EA06000A7B550 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					F49A6E401A6EA09400A7B550 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
 			};
 			buildConfigurationList = F49A6E131A6EA03B00A7B550 /* Build configuration list for PBXProject "AppleWatchSimulator" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -27,14 +304,177 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = F49A6E0F1A6EA03B00A7B550;
+			productRefGroup = F49A6E1B1A6EA06000A7B550 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				F49A6E191A6EA06000A7B550 /* AWCapture-IOS */,
+				F49A6E401A6EA09400A7B550 /* AWCapture-OSX */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F49A6E181A6EA06000A7B550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CB757E1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Blue.png in Resources */,
+				F4CB75811A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, White.png in Resources */,
+				F49A6E251A6EA06000A7B550 /* Main.storyboard in Resources */,
+				F4CB757C1A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Classic Buckle, Midnight Blue.png in Resources */,
+				F4CB75761A70060700F06263 /* 42mm Apple Watch - Steel - Link Bracelet.png in Resources */,
+				F4CB756E1A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Midnight Blue.png in Resources */,
+				F4CB75781A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, Black.png in Resources */,
+				F49A6E2A1A6EA06000A7B550 /* LaunchScreen.xib in Resources */,
+				F4CB75741A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Light Brown.png in Resources */,
+				F4CB75731A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Blue.png in Resources */,
+				F4CB75751A70060700F06263 /* 42mm Apple Watch - Steel - Leather Loop, Stone.png in Resources */,
+				F4CB75771A70060700F06263 /* 42mm Apple Watch - Steel - Milanese Loop.png in Resources */,
+				F4CB75801A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Pink.png in Resources */,
+				F4CB757F1A70060700F06263 /* 42mm Apple Watch Sport - Aluminum - Sport Band, Green.png in Resources */,
+				F4CB756D1A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Brown.png in Resources */,
+				F4CB757A1A70060700F06263 /* 42mm Apple Watch - Steel, Space Black - Link Bracelet.png in Resources */,
+				F4CB757D1A70060700F06263 /* 42mm Apple Watch Edition - Yellow Gold - Sport Band, Black.png in Resources */,
+				F4CB75711A70060700F06263 /* 38mm Apple Watch Edition - Rose Gold - Modern Buckle, Rose Gray.png in Resources */,
+				F4CB75721A70060700F06263 /* 38mm Apple Watch Edition - Yellow Gold - Modern Buckle, Bright Red.png in Resources */,
+				F4CB756F1A70060700F06263 /* 38mm Apple Watch - Steel - Modern Buckle, Soft Pink.png in Resources */,
+				F4CB75791A70060700F06263 /* 42mm Apple Watch - Steel - Sport Band, White.png in Resources */,
+				F4CB757B1A70060700F06263 /* 42mm Apple Watch Edition - Rose Gold - Sport Band, White.png in Resources */,
+				F4CB75701A70060700F06263 /* 38mm Apple Watch - Steel - Sport Band, Black.png in Resources */,
+				F49A6E271A6EA06000A7B550 /* Images.xcassets in Resources */,
+				F4CB75821A70060700F06263 /* 42mm Apple Watch Sport - Space Gray - Sport Band, Black.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A6E3F1A6EA09400A7B550 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A6E481A6EA09400A7B550 /* Images.xcassets in Resources */,
+				F49A6E4B1A6EA09400A7B550 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2944ECA0D9BBB78E02B3CC0B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWCapture-IOS/Pods-AWCapture-IOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38133CF7885D124C9E3AFF6A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AWCapture-OSX/Pods-AWCapture-OSX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		784AEBC231EF220CD31DD849 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A180C3C34F5E0731BFB63A83 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F49A6E161A6EA06000A7B550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A6E851A6EA9EF00A7B550 /* ImageKit.swift in Sources */,
+				F4CB754D1A6FEDC400F06263 /* PTChannel+swiftHelper.m in Sources */,
+				F49A6E221A6EA06000A7B550 /* ViewController.swift in Sources */,
+				F49A6E821A6EA83500A7B550 /* PeerTalkProtocol.swift in Sources */,
+				F49A6E201A6EA06000A7B550 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F49A6E3D1A6EA09400A7B550 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49A6E461A6EA09400A7B550 /* AppDelegate.swift in Sources */,
+				F49A6E871A6EAFE000A7B550 /* WindowKit.swift in Sources */,
+				F49A6E831A6EA83500A7B550 /* PeerTalkProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F49A6E231A6EA06000A7B550 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A6E241A6EA06000A7B550 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F49A6E281A6EA06000A7B550 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A6E291A6EA06000A7B550 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F49A6E491A6EA09400A7B550 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F49A6E4A1A6EA09400A7B550 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F49A6E141A6EA03B00A7B550 /* Debug */ = {
@@ -49,6 +489,188 @@
 			};
 			name = Release;
 		};
+		F49A6E381A6EA06000A7B550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E021213D5A2AB5EC7A750301 /* Pods-AWCapture-IOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "AWCapture-IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AWCapture-IOS/AWCapture-IOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F49A6E391A6EA06000A7B550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F399A2494AC1F12BA3B8DA /* Pods-AWCapture-IOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "AWCapture-IOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "AWCapture-IOS/AWCapture-IOS-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F49A6E591A6EA09400A7B550 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3359A399CBA726C0706C98D /* Pods-AWCapture-OSX.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "AWCapture-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "AWCapture-OSX/AWCapture-OSX-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F49A6E5A1A6EA09400A7B550 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A26958667084296C41479DAD /* Pods-AWCapture-OSX.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "AWCapture-OSX/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "AWCapture-OSX/AWCapture-OSX-Bridging-Header.h";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -57,6 +679,24 @@
 			buildConfigurations = (
 				F49A6E141A6EA03B00A7B550 /* Debug */,
 				F49A6E151A6EA03B00A7B550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49A6E371A6EA06000A7B550 /* Build configuration list for PBXNativeTarget "AWCapture-IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A6E381A6EA06000A7B550 /* Debug */,
+				F49A6E391A6EA06000A7B550 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F49A6E581A6EA09400A7B550 /* Build configuration list for PBXNativeTarget "AWCapture-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F49A6E591A6EA09400A7B550 /* Debug */,
+				F49A6E5A1A6EA09400A7B550 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
