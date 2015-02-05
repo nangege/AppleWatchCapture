@@ -22,8 +22,8 @@ Have fun.
 Now this project is more like a demo project now ,so there is a lot to do.
 
 1. Optimize performance. (now ,it always drop frame )
-2. Turn IOS gesture into Mac Mouse Event. So as to control Apple Watch on IOS device.
-3. Adaptor to 38mm Apple Watch . (now it just work with 42mm )
+2. Turn IOS gesture into Mac Mouse Event, So as to control Apple Watch on IOS device.
+3. Adaptor to 38mm Apple Watch . (now it just work with 42mm Apple Watch Simulator for simplicity)
 
 
 
