@@ -19,7 +19,7 @@ Have fun.
 
 ## TODO
 
-Now this project is more like a demo project now ,so there is a lot to do.
+Now this project is more like a demo project  ,so there is a lot to do.
 
 1. Optimize performance. (now ,it always drop frame )
 2. Turn IOS gesture into Mac Mouse Event, So as to control Apple Watch on IOS device.
